@@ -1,5 +1,6 @@
 <div align="center">
 
+# GitHub 界面完全解析：从新手到专家的导航指南
 
 ## 全面掌握 GitHub 各个功能界面，提升开发协作效率
 
@@ -548,8 +549,11 @@ GitHub 不仅是一个工具，更是一个完整的开发生态系统。深入�
 
 <div align="center">
 
-本文档基于 GitHub 最新界面编写
-最后更新: {{ date | date_to_string }}
+本文档基于 GitHub 最新界面编写  
+📚 文档版本: v1.0  
+📅 创建时间: 2025年10月  
+🔄 持续更新维护中
+
 有界面使用问题？欢迎在 Discussions 中交流
 
 </div>
