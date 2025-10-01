@@ -1,5 +1,625 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub的指南与介绍</title><link>https://XOX-zip.github.io/The-development-of-GitHub</link><description>零基础教你会用GitHub</description><copyright>GitHub的指南与介绍</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/235296676?v=4</url><title>avatar</title><link>https://XOX-zip.github.io/The-development-of-GitHub</link></image><lastBuildDate>Wed, 01 Oct 2025 09:40:07 +0000</lastBuildDate><managingEditor>GitHub的指南与介绍</managingEditor><ttl>60</ttl><webMaster>GitHub的指南与介绍</webMaster><item><title>🚀 GitHub 界面完全解析：从新手到专家的导航指南</title><link>https://XOX-zip.github.io/The-development-of-GitHub/post/%F0%9F%9A%80%20GitHub%20-jie-mian-wan-quan-jie-xi-%EF%BC%9A-cong-xin-shou-dao-zhuan-jia-de-dao-hang-zhi-nan.html</link><description>&lt;div align='center'&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub的指南与介绍</title><link>https://XOX-zip.github.io/The-development-of-GitHub</link><description>零基础教你会用GitHub</description><copyright>GitHub的指南与介绍</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/235296676?v=4</url><title>avatar</title><link>https://XOX-zip.github.io/The-development-of-GitHub</link></image><lastBuildDate>Wed, 01 Oct 2025 09:52:13 +0000</lastBuildDate><managingEditor>GitHub的指南与介绍</managingEditor><ttl>60</ttl><webMaster>GitHub的指南与介绍</webMaster><item><title>🎨 GitHub 实用小组件大全：让你的个人主页和专业简历脱颖而出</title><link>https://XOX-zip.github.io/The-development-of-GitHub/post/%F0%9F%8E%A8%20GitHub%20-shi-yong-xiao-zu-jian-da-quan-%EF%BC%9A-rang-ni-de-ge-ren-zhu-ye-he-zhuan-ye-jian-li-tuo-ying-er-chu.html</link><description>&lt;div align='center'&gt;
+
+## 探索 GitHub 的隐藏宝藏，用精美小组件打造个性化开发者名片
+
+| 组件类型 | 主要用途 | 配置难度 | 视觉效果 |
+|----------|----------|----------|----------|
+| 数据统计 | 展示开发活动 | ⭐⭐ | 🔥🔥🔥🔥 |
+| 技能展示 | 呈现技术栈 | ⭐⭐ | 🔥🔥🔥🔥🔥 |
+| 项目展示 | 突出作品集 | ⭐⭐⭐ | 🔥🔥🔥🔥 |
+| 动态内容 | 实时更新信息 | ⭐⭐⭐⭐ | 🔥🔥🔥 |
+| 创意设计 | 个性化装饰 | ⭐⭐⭐ | 🔥🔥🔥🔥 |
+
+&lt;/div&gt;
+
+---
+
+## 目录导航
+
+- 个人主页配置指南
+- 数据统计小组件
+- 技能展示小组件  
+- 项目展示小组件
+- 动态内容小组件
+- 创意设计小组件
+- 配置与部署指南
+- 最佳实践总结
+
+---
+
+## 个人主页配置指南
+
+### 激活个人主页
+&lt;details&gt;
+&lt;summary&gt;创建特殊仓库步骤&lt;/summary&gt;
+
+&lt;b&gt;第一步&lt;/b&gt;：创建同名仓库
+- 仓库名必须与你的用户名完全相同
+- 例如：用户名是 `XOX-zip`，仓库名也必须是 `XOX-zip`
+
+&lt;b&gt;第二步&lt;/b&gt;：初始化 README
+- 创建时勾选 &lt;b&gt;Add a README file&lt;/b&gt;
+- 这个 README 将显示在你的 GitHub 主页
+
+&lt;b&gt;第三步&lt;/b&gt;：自定义内容
+- 编辑 README.md 文件
+- 添加各种小组件
+- 提交更改立即生效
+
+&lt;b&gt;验证方法&lt;/b&gt;
+访问：https://github.com/你的用户名
+查看个人主页是否显示自定义内容
+&lt;/details&gt;
+
+### 基础模板结构
+&lt;details&gt;
+&lt;summary&gt;推荐的文件结构&lt;/summary&gt;
+
+```markdown
+&lt;div align='center'&gt;
+
+# 标题和介绍区域
+
+&lt;!-- 数据统计小组件 --&gt;
+
+&lt;/div&gt;
+
+## 技能展示区域
+
+## 项目展示区域  
+
+## 动态内容区域
+
+## 联系信息区域
+
+&lt;div align='center'&gt;
+
+&lt;!-- 页脚和装饰元素 --&gt;
+
+&lt;/div&gt;
+```
+
+&lt;b&gt;布局技巧&lt;/b&gt;
+- 使用 HTML div 标签控制布局
+- 利用表格和网格排列组件
+- 保持视觉层次清晰
+- 确保移动端友好
+&lt;/details&gt;
+
+---
+
+## 数据统计小组件
+
+### GitHub 数据统计
+&lt;details&gt;
+&lt;summary&gt;多种统计展示方案&lt;/summary&gt;
+
+&lt;b&gt;基础统计数据&lt;/b&gt;
+```markdown
+![XOX-zip的 GitHub 数据](https://github-readme-stats.vercel.app/api?username=XOX-zip&amp;show_icons=true&amp;theme=radical)
+```
+
+&lt;b&gt;详细参数配置&lt;/b&gt;
+```markdown
+![自定义统计数据](https://github-readme-stats.vercel.app/api?username=XOX-zip
+&amp;show_icons=true
+&amp;count_private=true
+&amp;hide_title=true
+&amp;hide_border=false
+&amp;bg_color=30,ff6b6b,ffd93d
+&amp;title_color=fff
+&amp;text_color=fff
+&amp;icon_color=fff)
+```
+
+&lt;b&gt;连续贡献记录&lt;/b&gt;
+```markdown
+![连续贡献](https://streak-stats.demolab.com/?user=XOX-zip&amp;theme=radical)
+```
+
+&lt;b&gt;活动统计图表&lt;/b&gt;
+```markdown
+![活动图表](https://github-readme-activity-graph.vercel.app/graph?username=XOX-zip&amp;theme=github)
+```
+
+&lt;b&gt;访客计数器&lt;/b&gt;
+```markdown
+![访客统计](https://komarev.com/ghpvc/?username=XOX-zip&amp;color=blueviolet)
+```
+&lt;/details&gt;
+
+### 编程数据统计
+&lt;details&gt;
+&lt;summary&gt;开发活动深度分析&lt;/summary&gt;
+
+&lt;b&gt;最常用语言&lt;/b&gt;
+```markdown
+![常用语言](https://github-readme-stats.vercel.app/api/top-langs/?username=XOX-zip&amp;layout=compact&amp;theme=radical)
+```
+
+&lt;b&gt;WakaTime 编程时间&lt;/b&gt;
+```markdown
+![编程时间](https://github-readme-stats.vercel.app/api/wakatime?username=XOX-zip&amp;theme=radical)
+```
+
+&lt;b&gt;Trophy 成就系统&lt;/b&gt;
+```markdown
+![成就奖杯](https://github-profile-trophy.vercel.app/?username=XOX-zip&amp;theme=gruvbox)
+```
+
+&lt;b&gt;代码时间分布&lt;/b&gt;
+```markdown
+📊 本周编程时间分布
+🐍 Python: ██████████ 45%
+🌐 JavaScript: ████████ 35%  
+🔧 TypeScript: ████ 15%
+其他: ██ 5%
+```
+&lt;/details&gt;
+
+---
+
+## 技能展示小组件
+
+### 技术栈展示
+&lt;details&gt;
+&lt;summary&gt;多种技能展示方式&lt;/summary&gt;
+
+&lt;b&gt;徽章式技能展示&lt;/b&gt;
+```markdown
+### 🛠️ 技术栈
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white)
+```
+
+&lt;b&gt;进度条式技能展示&lt;/b&gt;
+```markdown
+### 📊 技能熟练度
+JavaScript ██████████ 90%
+Python █████████ 80%
+React ████████ 75%
+Node.js ███████ 70%
+Docker █████ 50%
+```
+
+&lt;b&gt;图标网格展示&lt;/b&gt;
+```markdown
+### 💻 开发工具
+| 前端 | 后端 | 工具 |
+|------|------|------|
+| React ⚛️ | Node.js 🟢 | Git 🔧 |
+| Vue 🟢 | Python 🐍 | Docker 🐳 |
+| Angular 🅰️ | Java ☕ | AWS ☁️ |
+```
+&lt;/details&gt;
+
+### 专业能力矩阵
+&lt;details&gt;
+&lt;summary&gt;多维能力展示&lt;/summary&gt;
+
+&lt;b&gt;开发技能矩阵&lt;/b&gt;
+```markdown
+### 🔧 技术能力矩阵
+前端开发: ██████████ 精通
+后端开发: █████████ 熟练
+数据库: ███████ 良好
+DevOps: █████ 基础
+```
+
+&lt;b&gt;项目经验展示&lt;/b&gt;
+```markdown
+### 🎯 项目经验
+Web应用开发: ⭐⭐⭐⭐⭐
+移动端开发: ⭐⭐⭐⭐
+数据可视化: ⭐⭐⭐⭐⭐
+系统架构: ⭐⭐⭐
+```
+
+&lt;b&gt;学习进度追踪&lt;/b&gt;
+```markdown
+### 📚 正在学习
+机器学习: █████░░░░░ 50%
+区块链: ██░░░░░░░░ 20%
+云原生: ███████░░░ 70%
+```
+&lt;/details&gt;
+
+---
+
+## 项目展示小组件
+
+### 项目卡片展示
+&lt;details&gt;
+&lt;summary&gt;多种项目展示方案&lt;/summary&gt;
+
+&lt;b&gt;置顶项目展示&lt;/b&gt;
+```markdown
+### 🌟 精选项目
+[![项目1](https://github-readme-stats.vercel.app/api/pin/?username=XOX-zip&amp;repo=repo-name&amp;theme=radical)](https://github.com/XOX-zip/repo-name)
+[![项目2](https://github-readme-stats.vercel.app/api/pin/?username=XOX-zip&amp;repo=repo-name2&amp;theme=dark)](https://github.com/XOX-zip/repo-name2)
+```
+
+&lt;b&gt;项目表格展示&lt;/b&gt;
+```markdown
+### 📂 项目作品集
+| 项目 | 描述 | 技术栈 | 状态 |
+|------|------|--------|------|
+| **[AI助手](链接)** | 智能对话机器人 | Python, FastAPI | 🟢 活跃 |
+| **[电商平台](链接)** | 全栈电商解决方案 | React, Node.js | 🟡 维护 |
+| **[工具库](链接)** | 实用开发工具集合 | TypeScript | 🔴 归档 |
+```
+
+&lt;b&gt;项目统计数据&lt;/b&gt;
+```markdown
+### 📈 项目指标
+![仓库大小](https://img.shields.io/github/repo-size/XOX-zip/repo-name)
+![最后提交](https://img.shields.io/github/last-commit/XOX-zip/repo-name)
+![问题统计](https://img.shields.io/github/issues/XOX-zip/repo-name)
+![星标数量](https://img.shields.io/github/stars/XOX-zip/repo-name)
+```
+&lt;/details&gt;
+
+### 项目时间线
+&lt;details&gt;
+&lt;summary&gt;项目发展历程&lt;/summary&gt;
+
+&lt;b&gt;项目里程碑&lt;/b&gt;
+```markdown
+### 🗓️ 项目时间线
+2023 Q1: 🎯 项目规划与设计
+2023 Q2: 🚀 MVP 版本发布  
+2023 Q3: 📈 用户增长阶段
+2023 Q4: 🔧 功能完善优化
+2024 Q1: 🌟 社区生态建设
+```
+
+&lt;b&gt;贡献热度图&lt;/b&gt;
+```markdown
+### 🔥 项目活跃度
+最近一年开发活跃度:
+██████████ 高活跃期 (新功能)
+████░░░░░░ 中等活跃 (优化)
+██░░░░░░░░ 低活跃期 (维护)
+```
+
+&lt;b&gt;技术演进展示&lt;/b&gt;
+```markdown
+### 🔄 技术栈演进
+版本 1.0: JavaScript + Express
+版本 2.0: TypeScript + NestJS  
+版本 3.0: 微服务架构 + Docker
+```
+&lt;/details&gt;
+
+---
+
+## 动态内容小组件
+
+### 实时数据更新
+&lt;details&gt;
+&lt;summary&gt;自动更新内容&lt;/summary&gt;
+
+&lt;b&gt;最新博客文章&lt;/b&gt;
+```markdown
+### 📝 最新博客
+- [理解 React Hooks 原理](链接) - 2小时前
+- [微前端架构实战](链接) - 1天前
+- [TypeScript 技巧分享](链接) - 3天前
+```
+
+&lt;b&gt;GitHub 动态&lt;/b&gt;
+```markdown
+### 🔄 最近活动
+- 🎉 刚刚提交了新功能
+- 🤝 合并了 Pull Request
+- 🐛 修复了重要问题
+- 📚 更新了项目文档
+```
+
+&lt;b&gt;社交媒体集成&lt;/b&gt;
+```markdown
+### 🌐 社交动态
+![Twitter](https://img.shields.io/twitter/follow/用户名?style=social)
+![知乎](https://img.shields.io/badge/知乎-粉丝数-blue)
+```
+
+&lt;b&gt;音乐播放状态&lt;/b&gt;
+```markdown
+### 🎵 正在收听
+![Spotify](https://spotify-readme.vercel.app/api/spotify?background_color=0d1117)
+```
+&lt;/details&gt;
+
+### 自动化更新
+&lt;details&gt;
+&lt;summary&gt;GitHub Actions 自动化&lt;/summary&gt;
+
+&lt;b&gt;自动更新工作流&lt;/b&gt;
+```yaml
+name: Update Profile README
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Update Statistics
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit Changes
+        run: |
+          git config --global user.name 'XOX-zip'
+          git config --global user.email 'email@example.com'
+          git add .
+          git commit -m '更新统计数据' || exit 0
+          git push
+```
+
+&lt;b&gt;博客自动同步&lt;/b&gt;
+```yaml
+- name: Update Blog Posts
+  uses: gautamkrishnar/blog-post-workme@v1
+  with:
+    feed_list: 'https://blog.com/rss.xml'
+```
+
+&lt;b&gt;天气信息集成&lt;/b&gt;
+```markdown
+### 🌤️ 当前位置天气
+![天气](https://wttr.in/城市名称_format=3)
+```
+&lt;/details&gt;
+
+---
+
+## 创意设计小组件
+
+### 视觉装饰元素
+&lt;details&gt;
+&lt;summary&gt;美化页面设计&lt;/summary&gt;
+
+&lt;b&gt;ASCII 艺术文字&lt;/b&gt;
+```markdown
+&lt;div align='center'&gt;
+
+```ascii
+  _____ _    _ ______ _____  
+ / ____| |  | |  ____|  __ \ 
+| |  __| |  | | |__  | |__) |
+| | |_ | |  | |  __| |  _  / 
+| |__| | |__| | |____| | \ \ 
+ \_____|\____/|______|_|  \_\
+```
+
+&lt;/div&gt;
+```
+
+&lt;b&gt;分割线和装饰&lt;/b&gt;
+```markdown
+&lt;!-- 渐变分割线 --&gt;
+&lt;img src='https://raw.githubusercontent.com/trinib/trinib/main/.images/footer.svg' width='100%'&gt;
+
+&lt;!-- 动态装饰 --&gt;
+![Snake animation](https://github.com/XOX-zip/XOX-zip/blob/output/github-contribution-grid-snake.svg)
+```
+
+&lt;b&gt;自定义 SVG 图形&lt;/b&gt;
+```markdown
+&lt;svg width='100%' height='100'&gt;
+  &lt;rect width='100%' height='100' fill='#0d1117'/&gt;
+  &lt;circle cx='50' cy='50' r='40' fill='#28a745'/&gt;
+  &lt;text x='50' y='55' text-anchor='middle' fill='white'&gt;⚡&lt;/text&gt;
+&lt;/svg&gt;
+```
+
+&lt;b&gt;节日主题装饰&lt;/b&gt;
+```markdown
+### 🎄 节日特效
+&lt;!-- 根据时间自动切换主题 --&gt;
+🎁 圣诞主题 | 🎆 新年主题 | 🎃 万圣节主题
+```
+&lt;/details&gt;
+
+### 交互式元素
+&lt;details&gt;
+&lt;summary&gt;增强用户互动&lt;/summary&gt;
+
+&lt;b&gt;折叠内容区域&lt;/b&gt;
+```markdown
+&lt;details&gt;
+&lt;summary&gt;点击查看详细技能列表&lt;/summary&gt;
+
+- 前端框架: React, Vue, Angular
+- 后端技术: Node.js, Python, Java
+- 数据库: MySQL, MongoDB, Redis
+- 工具链: Webpack, Docker, AWS
+
+&lt;/details&gt;
+```
+
+&lt;b&gt;进度追踪系统&lt;/b&gt;
+```markdown
+### 🎯 年度目标进度
+学习新语言: █████░░░░░ 50%
+完成项目: ████████░░ 80%
+写博客: ████░░░░░░ 40%
+贡献开源: █████████░ 90%
+```
+
+&lt;b&gt;成就解锁系统&lt;/b&gt;
+```markdown
+### 🏆 已解锁成就
+✅ 第一次提交
+✅ 开源贡献者  
+✅ 项目维护者
+🔒 GitHub Star (待解锁)
+```
+&lt;/details&gt;
+
+---
+
+## 配置与部署指南
+
+### 快速开始配置
+&lt;details&gt;
+&lt;summary&gt;五分钟快速上手&lt;/summary&gt;
+
+&lt;b&gt;基础配置步骤&lt;/b&gt;
+1. 创建同名仓库 `你的用户名`
+2. 编辑 README.md 文件
+3. 添加喜欢的小组件代码
+4. 提交更改立即生效
+
+&lt;b&gt;推荐初始配置&lt;/b&gt;
+```markdown
+&lt;div align='center'&gt;
+
+# 👋 你好，我是 [你的名字]
+
+## 📊 GitHub 数据
+![Stats](https://github-readme-stats.vercel.app/api?username=你的用户名)
+
+## 🛠️ 技术栈
+![JavaScript](https://img.shields.io/badge/JavaScript-Expert-yellow)
+
+&lt;/div&gt;
+```
+
+&lt;b&gt;测试方法&lt;/b&gt;
+- 访问 https://github.com/你的用户名
+- 查看个人主页是否更新
+- 检查所有链接是否正常
+- 验证移动端显示效果
+&lt;/details&gt;
+
+### 高级配置技巧
+&lt;details&gt;
+&lt;summary&gt;个性化深度定制&lt;/summary&gt;
+
+&lt;b&gt;主题颜色定制&lt;/b&gt;
+```markdown
+&lt;!-- 自定义颜色主题 --&gt;
+![Stats](https://github-readme-stats.vercel.app/api?username=用户名
+&amp;bg_color=30,ff6b6b,ffd93d
+&amp;title_color=fff
+&amp;text_color=fff)
+```
+
+&lt;b&gt;响应式布局设计&lt;/b&gt;
+```markdown
+&lt;!-- 表格布局适应不同屏幕 --&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;![Stats](链接)&lt;/td&gt;
+    &lt;td&gt;![Languages](链接)&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+```
+
+&lt;b&gt;性能优化建议&lt;/b&gt;
+- 控制小组件数量，避免过多请求
+- 使用缓存减少 API 调用
+- 选择稳定的服务提供商
+- 定期检查链接有效性
+&lt;/details&gt;
+
+---
+
+## 最佳实践总结
+
+### 设计原则
+&lt;details&gt;
+&lt;summary&gt;打造专业个人主页&lt;/summary&gt;
+
+&lt;b&gt;内容组织原则&lt;/b&gt;
+1. &lt;b&gt;重点突出&lt;/b&gt;：最重要的信息放在最前面
+2. &lt;b&gt;层次清晰&lt;/b&gt;：使用标题和分割线组织内容
+3. &lt;b&gt;视觉统一&lt;/b&gt;：保持一致的色彩和风格
+4. &lt;b&gt;信息适量&lt;/b&gt;：避免信息过载，保持简洁
+
+&lt;b&gt;技术选择建议&lt;/b&gt;
+- 选择稳定可靠的服务
+- 考虑加载性能和速度
+- 确保移动端兼容性
+- 定期维护和更新
+
+&lt;b&gt;内容更新策略&lt;/b&gt;
+- 设置自动更新工作流
+- 定期检查链接有效性
+- 及时更新项目信息
+- 保持内容新鲜度
+&lt;/details&gt;
+
+### 实用工具推荐
+&lt;details&gt;
+&lt;summary&gt;资源和服务列表&lt;/summary&gt;
+
+&lt;b&gt;在线生成工具&lt;/b&gt;
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+- [Shields.io](https://shields.io) - 徽章生成
+- [Readme Typing SVG](https://github.com/denvercoder1/readme-typing-svg) - 打字机效果
+- [GitHub Profile Views Counter](https://github.com/antonkomarev/github-profile-views-counter)
+
+&lt;b&gt;设计资源&lt;/b&gt;
+- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+- [Profile Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+- [Markdown Emoji](https://gist.github.com/rxaviers/7360908) - 表情符号库
+
+&lt;b&gt;自动化工具&lt;/b&gt;
+- [GitHub Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
+- [Blog Post Workflow](https://github.com/gautamkrishnar/blog-post-workflow)
+- [WakaTime Readme](https://github.com/athul/waka-readme)
+&lt;/details&gt;
+
+---
+
+&lt;div align='center'&gt;
+
+## 🚀 立即开始打造你的专属主页
+
+### 快速行动指南
+1. [创建同名仓库](#个人主页配置指南)
+2. [添加数据统计](#数据统计小组件)  
+3. [展示技术技能](#技能展示小组件)
+4. [突出项目作品](#项目展示小组件)
+5. [配置动态内容](#动态内容小组件)
+
+### 进阶优化建议
+- 定期更新维护内容
+- 参与开源项目积累经验
+- 撰写技术博客分享知识
+- 积极与社区互动交流
+
+&lt;b&gt;记住：你的 GitHub 主页是向世界展示技术实力的重要窗口！&lt;/b&gt;
+
+&lt;/div&gt;
+
+---
+
+&lt;div align='center'&gt;
+
+📚 文档版本: v1.0  
+📅 创建时间: 2025年10月  
+🔄 持续更新维护中
+
+🐛 发现问题？欢迎提交 Issue 反馈  
+💡 有改进建议？欢迎参与贡献
+版权作者GitHub：XOX-zip
+制作不易！欢迎评论留言⬇
+
+&lt;/div&gt;。</description><guid isPermaLink="true">https://XOX-zip.github.io/The-development-of-GitHub/post/%F0%9F%8E%A8%20GitHub%20-shi-yong-xiao-zu-jian-da-quan-%EF%BC%9A-rang-ni-de-ge-ren-zhu-ye-he-zhuan-ye-jian-li-tuo-ying-er-chu.html</guid><pubDate>Wed, 01 Oct 2025 09:51:41 +0000</pubDate></item><item><title>🚀 GitHub 界面完全解析：从新手到专家的导航指南</title><link>https://XOX-zip.github.io/The-development-of-GitHub/post/%F0%9F%9A%80%20GitHub%20-jie-mian-wan-quan-jie-xi-%EF%BC%9A-cong-xin-shou-dao-zhuan-jia-de-dao-hang-zhi-nan.html</link><description>&lt;div align='center'&gt;
 
 # GitHub 界面完全解析：从新手到专家的导航指南
 
