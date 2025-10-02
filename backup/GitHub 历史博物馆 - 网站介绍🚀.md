@@ -1,6 +1,6 @@
 ## 基本信息
 - 项目名称：GitHub 历史博物馆
-- 网站地址：https://xox-zip.github.io/The-History-of-GitHub
+- 网站地址：https://xox-zip.github.io/The-development-of-GitHub
 - 项目作者：XOX-zip
 - 项目类型：开源静态网站
 - 技术架构：GitHub Pages + Markdown
@@ -35,8 +35,8 @@ GitHub 历史博物馆是一个致力于记录和展示 GitHub 平台完整发�
 4. 记录和见证 GitHub 未来的发展
 
 ## 访问方式
-主站点：https://xox-zip.github.io/The-History-of-GitHub
-开源仓库：https://github.com/XOX-zip/The-History-of-GitHub
+主站点：https://xox-zip.github.io/The-development-of-GitHub
+开源仓库：https://github.com/XOX-zip/The-development-of-GitHub
 
 ## 参与贡献
 我们欢迎所有开发者参与项目改进，包括内容补充、代码优化、设计改进、问题反馈等形式的贡献。
